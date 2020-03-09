@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas width="1000" , height="1000"></canvas>
+    <script>
+        const canvas = document.querySelector('canvas');
+        const ctx = canvas.getContext('2d');
+        const hoseImg = new Image();
+        hoseImg.src = "./static/img/gritty_hose.png";
+        ctx.drawImage(hoseImg, 50, 50)
+    </script>
+</body>
+
+</html>
